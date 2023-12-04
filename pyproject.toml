@@ -1,0 +1,17 @@
+[project]
+name = "persh"
+version = "1.0.0"
+description = "Perform coordinate transformations."
+readme = "README.md"
+requires-python = ">=3.10"
+license = {file = "LICENSE.txt"}
+authors = [{name = "Christian Moomaw", email = "phosfor.us.public@phosfor.us"}]
+classifiers = [
+    "Development Status :: 5",
+    "Programming Language :: Python :: 3 :: Only",
+]
+dependencies = ["numpy>=1.24.0"]
+
+[build-system]
+requires = ["setuptools>=43.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
